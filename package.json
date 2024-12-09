@@ -1,0 +1,25 @@
+{
+  "name": "amaron-battery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:single": "npx playwright test ./test_specs/smokeTests/loginTest.spec.ts --headed",
+    "test:report": "npx playwright show-report html-report",
+    "allure:report": "allure serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.5.5",
+    "allure-playwright": "^3.0.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.3"
+  }
+}

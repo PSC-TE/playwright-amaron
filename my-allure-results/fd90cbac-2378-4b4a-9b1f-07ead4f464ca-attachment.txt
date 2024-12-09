@@ -1,0 +1,26 @@
+login successful
+Registered Batterie(s)/HUPS(s) Against Mobile Number/Email - "8688652225"
+Error occurred in and the element is not enabled Error: Timed out 3000ms waiting for expect(locator).toBeEnabled()
+
+Locator: getByRole('button', { name: 'Register' })
+Expected: enabled
+Received: disabled
+Call log:
+  - expect.toBeEnabled with timeout 3000ms
+  - waiting for getByRole('button', { name: 'Register' })
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+  -   locator resolved to <button disabled type="submit" form="vehicularForm" _ngcontent-gwf-c196="" class="btn btn-secondary action-btn mr-4 m-0">Register </button>
+  -   unexpected value "disabled"
+
+logout successful
